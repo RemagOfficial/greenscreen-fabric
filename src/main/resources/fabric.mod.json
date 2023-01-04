@@ -8,11 +8,10 @@
 		"Remag"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"sources": "https://github.com/RemagOfficial/greenscreen-fabric"
 	},
 	"license": "GPLv3",
-	"icon": "assets/green-screen/icon.png",
+	"icon": "assets/greenscreen/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
