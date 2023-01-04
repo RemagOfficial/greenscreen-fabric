@@ -1,0 +1,28 @@
+{
+	"schemaVersion": 1,
+	"id": "greenscreen",
+	"version": "${version}",
+	"name": "Green Screen",
+	"description": "A simple green screen mod for Fabric",
+	"authors": [
+		"Remag"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "GPLv3",
+	"icon": "assets/green-screen/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.remag.greenscreen.GreenScreen"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.14.12",
+		"minecraft": "~1.19.3",
+		"java": ">=17",
+		"fabric-api": "*"
+	}
+}
